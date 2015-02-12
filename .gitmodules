@@ -1,0 +1,3 @@
+[submodule "servers/Pokemon-Showdown"]
+	path = servers/Pokemon-Showdown
+	url = https://github.com/CreaturePhil/Pokemon-Showdown.git
