@@ -1,3 +1,9 @@
+0.1.3 / 2015-02-11
+==================
+
+  * Update Pokemon Showdown
+    - Remove config from .gitignore
+
 0.1.2 / 2015-02-11
 ==================
 
