@@ -1,1 +1,1 @@
-require('./index').createServer('pokemonshowdown');
+require('./index').createServer('PokemonShowdown');
