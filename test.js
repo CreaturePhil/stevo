@@ -1,1 +1,1 @@
-require('./index').createServer('PokemonShowdown');
+require('./index').createServer('PokemonShowdown', { owner: 'CreaturePhil' });
