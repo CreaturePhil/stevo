@@ -1,3 +1,8 @@
+0.2.0 / 2015-02-12
+==================
+
+  * Add owner option for Pokemon Showdown server
+
 0.1.4 / 2015-02-11
 ==================
 
