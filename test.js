@@ -1,1 +1,6 @@
-require('./index').createServer('PokemonShowdown', { owner: 'CreaturePhil' });
+require('./index').createServer('PokemonShowdown', {
+  owner: 'CreaturePhil',
+  config: {
+    port: 3000
+  }
+});
