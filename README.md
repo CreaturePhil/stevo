@@ -113,7 +113,7 @@ stevo.createServer('PokemonShowdown', {
   }
 });
 ```
-Sets up a [Pokemon-Showdown](https://github.com/CreaturePhil/Pokemon-Showdown) server. Default `port` is `3000`.
+Sets up a [Pokemon-Showdown](https://github.com/CreaturePhil/Pokemon-Showdown) server. Default `port` is `3000`. Alternative type is `ps`.
 
 <a name="owner" />
 ### owner
