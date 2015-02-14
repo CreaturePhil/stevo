@@ -5,6 +5,12 @@ var path = require('path');
 
 var simpleHttpServer = module.exports = {};
 
+/**
+ * Start a Simple Http Server
+ *
+ * @param {Number} port
+ * @param {Boolean} logging
+ */
 simpleHttpServer.startServer = function(port, logging) {
   var start = new Date();
   var app = express();
@@ -17,7 +23,7 @@ simpleHttpServer.startServer = function(port, logging) {
     res.sendFile(path.join(__dirname, '../../../**/*'));
   });
 
-  app.listen(port, function() {
+  return app.listen(port, function() {
     port = chalk.green(port);
     console.log('Listening on port ' + port  + '... - Took ' + chalk.magenta(new Date() - start + ' ms') + ' to start up\n');
   });
