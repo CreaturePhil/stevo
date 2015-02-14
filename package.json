@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/CreaturePhil/stevo",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test && mocha"
   },
   "files": [
     "LICENSE",
