@@ -17,9 +17,10 @@ npm install stevo
   * [Getting Started](#Getting-Started)
   * [Documentation](#Documentation)
   * [Contributing](#Contributing)
-  * [License](License)
+  * [License](#License)
 
-## Getting Started
+Getting Started
+---------------
 Install [Node.js](http://nodejs.org/) on your computer.
 stevo is installed and run using a command line.  In Windows, open Command Prompt (type cmd into the Start menu and it should be the first result). In Mac OS X, open `Terminal` (it's in Utilities). Type this into the command line:
 
@@ -47,7 +48,12 @@ $ node app.js
 
 Open up your browser and go to ```http://localhost:8000``` to go on your server locally.
 
-## Contributing
+Documentation
+-------------
+TODO
+
+Contributing
+------------
 
 #### Bug Reports & Feature Requests
 Please use the [issue tracker](https://github.com/creaturephil/usub/issues) to report any bugs or file feature requests.
@@ -55,5 +61,6 @@ Please use the [issue tracker](https://github.com/creaturephil/usub/issues) to r
 #### Code Style
 This project uses [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) with a few minor exceptions. If you are submitting a pull request that involves Jade templates, please make sure you are using *spaces*, not tabs.
 
-### License
+License
+-------
 [MIT](License)
