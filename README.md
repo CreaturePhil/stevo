@@ -53,9 +53,12 @@ Documentation
 
   * [`createServer`](#createserver)
   * [Simple Http Server](#simple-http-server)
-    * [`port`](#port)
-    * [`logging`](#logging)
+    - [`port`](#port)
+    - [`logging`](#logging)
   * [Pokemon Showdown](#pokemon-showdown)
+    - [`owner`](#owner)
+    - [`config`](#config)
+    - [`commands`](#commands)
 
 ## createServer(type, options)
 Create a new server depending on types with configurations from the options.
@@ -92,11 +95,37 @@ Sets the port for the server. Defaults to `3000`.
 
 <a name="logging" />
 ### logging
-Turns module `morgan` logging on or off. Uses `morgan(dev)` Defaults to `true`.
-
+Turns module `morgan` logging on or off. Defaults to `true`. Uses `morgan(dev)` which shows concise output colored by response status for development use.
+`:method :url :status :response-time ms - :res[content-length]`
 
 ## Pokemon Showdown
-<a name="" />
+```js
+stevo.createServer('PokemonShowdown', {
+  owner: 'CreaturePhil',
+  config: {
+    port: 3000,
+    reportbattles: false
+  },
+  commands: {
+    yo: function(target, room, user, connection, cmd) {
+      this.sendReply('yo');
+    }
+  }
+});
+```
+Sets up a [Pokemon-Showdown](https://github.com/CreaturePhil/Pokemon-Showdown) server. Default `port` is `3000`.
+
+<a name="owner" />
+### owner
+Sets the username as an admin on the server. Writes to `usergroups.csv` file.
+
+<a name="config" />
+### config
+Sets up the configuration for Pokemon Showdown. For more infomation, visit the [`config.js` file](https://github.com/CreaturePhil/Pokemon-Showdown/blob/master/config/config.js) for all configuration options you can set in config.
+
+<a name="commands" />
+### commands
+Add custom commands to Pokemon Showdown. For more infomation, visit the [`config/commands.js` js](https://github.com/CreaturePhil/Pokemon-Showdown/blob/master/config/commands.js) for all the commands api.
 
 Contributing
 ------------
