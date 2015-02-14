@@ -10,4 +10,4 @@
 //  }
 //});
 
-require('./index').createServer('http');
+require('./index').createServer('ps');

@@ -125,7 +125,7 @@ Sets up the configuration for Pokemon Showdown. For more infomation, visit the [
 
 <a name="commands" />
 ### commands
-Add custom commands to Pokemon Showdown. For more infomation, visit the [`config/commands.js` js](https://github.com/CreaturePhil/Pokemon-Showdown/blob/master/config/commands.js) for all the commands api.
+Add custom commands to Pokemon Showdown. For more infomation, visit the [`config/commands.js` file](https://github.com/CreaturePhil/Pokemon-Showdown/blob/master/config/commands.js) for the command's api.
 
 Contributing
 ------------
