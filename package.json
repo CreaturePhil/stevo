@@ -13,6 +13,9 @@
     "url": "https://github.com/CreaturePhil/stevo/issues"
   },
   "homepage": "https://github.com/CreaturePhil/stevo",
+  "scripts": {
+    "test": "grunt test"
+  },
   "files": [
     "LICENSE",
     "CHANGELOG.md",
@@ -33,5 +36,9 @@
   },
   "engines": {
     "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.0"
   }
 }
