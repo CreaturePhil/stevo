@@ -50,7 +50,53 @@ Open up your browser and go to ```http://localhost:8000``` to go on your server 
 
 Documentation
 -------------
-TODO
+
+  * [`createServer`](#createserver)
+  * [Simple Http Server](#simple-http-server)
+    * [`port`](#port)
+    * [`logging`](#logging)
+  * [Pokemon Showdown](#pokemon-showdown)
+
+## createServer(type, options)
+Create a new server depending on types with configurations from the options.
+
+__Arguments__
+
+* `type` - An string that determines what type of server is created.
+* `options` - A object that sets the configuration of the server.
+
+__Examples__
+
+
+```js
+// Simple Http Server
+stevo.createServer('http', { port: 8080 });
+
+// Pokemon Showdown Server
+stevo.createServer('http', { owner: 'CreaturePhil', config: { port: 3000 } });
+```
+
+## Simple Http Server
+```js
+stevo.createServer('simpleHttpServer', {
+  port: 3000,       // Set the port
+  logging: true     // module `morgan` logging
+});
+```
+Sets up a Simple Http Server using express. Sends all files starting at root of your project.
+Index route (/) sends `index.html` by default. Alternative type is `http`.
+
+<a name="port" />
+### port
+Sets the port for the server. Defaults to `3000`.
+
+<a name="logging" />
+### logging
+Turns module `morgan` logging on or off. Uses `morgan(dev)` Defaults to `true`.
+
+
+## Pokemon Showdown
+<a name="" />
 
 Contributing
 ------------
