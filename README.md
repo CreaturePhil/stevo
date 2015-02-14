@@ -14,12 +14,12 @@ npm install stevo
 
 ## Table of Contents
 
-  * [Getting Started](Getting-Started)
-  * [Documentation](Documentation)
-  * [Contributing](Contributing)
+  * [Getting Started](#Getting-Started)
+  * [Documentation](#Documentation)
+  * [Contributing](#Contributing)
   * [License](License)
 
-### Getting Started
+## Getting Started
 Install [Node.js](http://nodejs.org/) on your computer.
 stevo is installed and run using a command line.  In Windows, open Command Prompt (type cmd into the Start menu and it should be the first result). In Mac OS X, open `Terminal` (it's in Utilities). Type this into the command line:
 
@@ -39,10 +39,9 @@ stevo.createServer('ps', {
 });
 ```
 
-Save this file and then go back to the command line and type this:
+Save this file and then go back to the command line and type this to start up the server:
 
 ```
-# Start up the server!
 $ node app.js
 ```
 
