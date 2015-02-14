@@ -2,6 +2,7 @@
 ==================
 
   * Add testing
+  * Refactor error handling
 
 0.5.0 / 2015-02-13
 ==================
