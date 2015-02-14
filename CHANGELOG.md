@@ -2,6 +2,7 @@
 ==================
 
   * Update logging for Simple Http Server
+  * Refactor and seperate handling servers logic
 
 0.4.0 / 2015-02-13
 ==================
