@@ -14,10 +14,10 @@ npm install stevo
 
 ## Table of Contents
 
-  * [Getting Started](#Getting-Started)
-  * [Documentation](#Documentation)
-  * [Contributing](#Contributing)
-  * [License](#License)
+  * [Getting Started](#getting-started)
+  * [Documentation](#documentation)
+  * [Contributing](#contributing)
+  * [License](#license)
 
 Getting Started
 ---------------
