@@ -8,9 +8,45 @@ require('stevo').createServer('PokemonShowdown');
 ```
 
 ### Installation
-```bash
+```
+npm install stevo
+```
+
+## Table of Contents
+
+  * [Getting Started](Getting-Started)
+  * [Documentation](Documentation)
+  * [Contributing](Contributing)
+  * [License](License)
+
+### Getting Started
+Install [Node.js](http://nodejs.org/) on your computer.
+stevo is installed and run using a command line.  In Windows, open Command Prompt (type cmd into the Start menu and it should be the first result). In Mac OS X, open `Terminal` (it's in Utilities). Type this into the command line:
+
+```
 $ npm install stevo
 ```
+
+Then create a file in a text editor and save it as ```app.js```. Type this in it (Don't type the lines with the //):
+
+```js
+// app.js
+var stevo = require('stevo');
+
+// Create a Pokemon Showdown server and add yourself as admin.
+stevo.createServer('ps', {
+  owner: 'Your Pokemon Showdown Username here'
+});
+```
+
+Save this file and then go back to the command line and type this:
+
+```
+# Start up the server!
+$ node app.js
+```
+
+Open up your browser and go to ```http://localhost:8000``` to go on your server locally.
 
 ## Contributing
 

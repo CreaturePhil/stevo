@@ -4,6 +4,7 @@
   * Update logging for Simple Http Server
   * Refactor and seperate handling servers logic
   * Add travis-ci and davis-dm
+  * Add more documentation
 
 0.4.0 / 2015-02-13
 ==================
