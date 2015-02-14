@@ -1,3 +1,4 @@
+var chalk = require('chalk');
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
@@ -5,6 +6,7 @@ var path = require('path');
 var simpleHttpServer = module.exports = {};
 
 simpleHttpServer.startServer = function(port, logging) {
+  var start = new Date();
   var app = express();
 
   if (logging) app.use(morgan('dev'));
@@ -16,6 +18,7 @@ simpleHttpServer.startServer = function(port, logging) {
   });
 
   app.listen(port, function() {
-    console.log('Listening on port ' + port + '...\n');
+    port = chalk.green(port);
+    console.log('Listening on port ' + port  + '... - Took ' + chalk.magenta(new Date() - start + ' ms') + ' to start up\n');
   });
 };
