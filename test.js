@@ -10,4 +10,6 @@
 //  }
 //});
 
-require('./index').createServer('http');
+require('./index').createServer('pokemonshowdown', {
+  config: { port: 3000 }
+});
