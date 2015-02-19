@@ -1,5 +1,7 @@
 # stevo [![Build Status](https://travis-ci.org/CreaturePhil/stevo.svg)](https://travis-ci.org/CreaturePhil/stevo) [![Dependency Status](https://david-dm.org/creaturephil/stevo.svg)](https://david-dm.org/creaturephil/stevo) [![devDependency Status](https://david-dm.org/creaturephil/stevo/dev-status.svg)](https://david-dm.org/creaturephil/stevo#info=devDependencies)
 
+![stevo's logo](http://i.imgur.com/Anh7XIe.png)
+
 Quick and easy web framework.
 
 ### Get a server up and running in one line.
